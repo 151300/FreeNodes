@@ -1,97 +1,107 @@
 proxies:
-- name: 未知_1
-  type: ss
-  server: 103.172.116.94
-  port: 9000
-  password: a3GFYt36Sm82Vys9
-  cipher: aes-256-cfb
-- name: 🇺🇸_US_美国->🇫🇷_FR_法国_1
-  type: vmess
-  server: 104.21.8.157
-  port: 2082
-  cipher: auto
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  alterId: 0
-  sni: ''
-  network: ws
-- name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  type: vmess
-  server: 104.19.21.63
-  port: 2052
-  cipher: auto
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  alterId: 0
-  sni: ''
-  network: ws
 - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   type: vmess
-  server: 104.19.42.49
-  port: 2052
+  server: 172.64.166.28
+  port: 2086
   cipher: auto
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
   sni: ''
   network: ws
 - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   type: vmess
-  server: 104.18.57.111
+  server: 104.19.123.11
   port: 2086
   cipher: auto
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
+  sni: ip2.1457230.xyz
+  network: ws
+- name: 🇺🇸_US_美国_1
+  type: ss
+  server: 38.114.114.158
+  port: 443
+  password: pKEW8JPByTVTLtM
+  cipher: aes-256-gcm
+- name: 🇷🇺_RU_俄罗斯_1
+  type: ss
+  server: 80.92.204.106
+  port: 9064
+  password: cp8pRSUAyLhTfVWH
+  cipher: aes-256-cfb
+- name: 🇺🇸_US_美国_2
+  type: vmess
+  server: 104.16.61.8
+  port: 8880
+  cipher: auto
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  alterId: 0
+  network: ws
+- name: 🇺🇸_US_美国_3
+  type: vmess
+  server: 23.227.38.145
+  port: 80
+  cipher: auto
+  uuid: ec286f13-7e1a-42bc-9deb-76b91b4b9d2d
+  alterId: 0
+  network: ws
+- name: 🇺🇸_US_美国->🇫🇷_FR_法国_1
+  type: vmess
+  server: 66.235.200.0
+  port: 80
+  cipher: auto
+  uuid: ec286f13-7e1a-42bc-9deb-76b91b4b9d2d
+  alterId: 0
   sni: ''
   network: ws
-- name: 🇦🇱_AL_阿尔巴尼亚->🇺🇸_US_美国
+- name: 🇷🇺_RU_俄罗斯_2
   type: ss
-  server: 31.171.153.178
-  port: 989
-  password: f8f7aCzcPKbsF8p3
+  server: 80.92.204.106
+  port: 9006
+  password: FAdUvMJUq5vDgKEq
   cipher: aes-256-cfb
 - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
   type: vmess
-  server: 172.64.175.223
-  port: 2052
-  cipher: auto
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  alterId: 0
-  sni: ''
-  network: ws
-- name: 🇺🇸_US_美国->🇦🇺_AU_澳大利亚
-  type: vmess
-  server: 104.20.25.146
-  port: 2052
-  cipher: auto
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  alterId: 0
-  sni: ''
-  network: ws
-- name: 🇳🇱_NL_荷兰
-  type: ss
-  server: 45.158.171.129
-  port: 8080
-  password: a8bt9fY0QsLS6eLnXUe0Ym
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
-  type: vmess
-  server: 104.19.47.88
+  server: 104.19.57.4
   port: 2086
   cipher: auto
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
-  sni: ''
+  sni: ip2.1457230.xyz
+  network: ws
+- name: 🇷🇺_RU_俄罗斯_3
+  type: ss
+  server: 80.92.204.106
+  port: 9019
+  password: GA9KzeEgvfxNrgmM
+  cipher: aes-256-cfb
+- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
+  type: vmess
+  server: 104.19.46.56
+  port: 2086
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  sni: ip2.1457230.xyz
   network: ws
 - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
   type: vmess
-  server: 104.19.32.46
+  server: 104.16.148.244
   port: 2086
   cipher: auto
   uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
   alterId: 0
-  sni: ip006.dtku47.xyz
+  sni: ip006.freegradely.xyz
   network: ws
+- name: 🇬🇧_GB_英国
+  type: ss
+  server: mx2.drawnrisha.one
+  port: 55988
+  password: E89vdQ1tPUuwcZcMceiHBtUCoGX3U92PAGajq83EZnzEXNMWs3A59u6UKjGa4aSD75qpBCRbJrqMpQm8bXc3FMHGYvAWANxY
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
   type: vmess
-  server: 172.64.233.32
+  server: 172.64.233.17
   port: 2086
   cipher: auto
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
@@ -100,34 +110,46 @@ proxies:
   network: ws
 - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_7
   type: vmess
-  server: 23.227.38.3
+  server: 172.64.167.5
   port: 2086
   cipher: auto
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
   sni: ''
   network: ws
-- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
+- name: 🇦🇱_AL_阿尔巴尼亚
+  type: ss
+  server: 31.171.153.178
+  port: 989
+  password: f8f7aCzcPKbsF8p3
+  cipher: aes-256-cfb
+- name: 🇺🇸_US_美国_4
   type: vmess
-  server: 172.64.166.33
+  server: 104.19.21.63
   port: 2086
   cipher: auto
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
-  sni: ip2.1457230.xyz
+  sni: ''
+  network: ws
+- name: 🇹🇷_TR_土耳其
+  type: ss
+  server: 185.123.101.241
+  port: 989
+  password: f8f7aCzcPKbsF8p3
+  cipher: aes-256-cfb
+- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
+  type: vmess
+  server: 104.19.47.122
+  port: 2086
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  sni: ''
   network: ws
 - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
   type: vmess
-  server: 104.19.46.233
-  port: 2086
-  cipher: auto
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  alterId: 0
-  sni: ip005.3196772.xyz
-  network: ws
-- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_10
-  type: vmess
-  server: 104.26.0.56
+  server: 23.227.38.3
   port: 2086
   cipher: auto
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
@@ -136,519 +158,231 @@ proxies:
   network: ws
 - name: 🇺🇸_US_美国->🇫🇷_FR_法国_2
   type: vmess
-  server: 104.17.106.151
-  port: 2052
+  server: 172.67.130.140
+  port: 2082
   cipher: auto
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   alterId: 0
-  sni: cdn1.freegradely.xyz
+  sni: ''
   network: ws
-- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_11
+- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_10
   type: vmess
-  server: 172.64.167.5
+  server: 172.64.167.8
   port: 2086
   cipher: auto
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
   sni: ''
   network: ws
-- name: 🇺🇸_US_美国->🇩🇪_DE_德国_2
+- name: 🇺🇸_US_美国_5
+  type: ss
+  server: 38.99.82.85
+  port: 20088
+  password: ڦʺl٬TJ1q8DFgǪǥ
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_11
   type: vmess
-  server: 104.20.25.166
-  port: 2052
+  server: 104.17.106.151
+  port: 2086
   cipher: auto
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
   sni: ''
   network: ws
 - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_12
   type: vmess
-  server: 104.19.38.62
+  server: 104.26.5.67
   port: 2086
   cipher: auto
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  alterId: 0
-  sni: ip005.dtku47.xyz
-  network: ws
-- name: 🇺🇸_US_美国->🇧🇷_BR_巴西
-  type: vmess
-  server: www.speedtest.net
-  port: 2052
-  cipher: auto
-  uuid: 01574712-f9e7-4787-b990-09d105e7b579
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
   network: ws
-- name: 未知_2
+- name: 🇳🇱_NL_荷兰->🇨🇳_CN_中国
+  port: 8080
+  server: 45.158.171.9
   type: ss
-  server: 103.172.116.94
-  port: 9084
-  password: c3NtHJ5ujV2tGDfj
-  cipher: aes-256-cfb
-- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_13
-  type: vmess
-  server: 104.19.46.22
-  port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  sni: ''
-  network: ws
-- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_14
-  type: vmess
-  server: 172.64.99.22
-  port: 2052
-  cipher: auto
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  alterId: 0
-  sni: ''
-  network: ws
-- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_15
-  type: vmess
-  server: 172.64.167.19
-  port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  sni: ''
-  network: ws
+  udp: true
+  password: a8bt9fY0QsLS6eLnXUe0Ym
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸_US_美国_1
+  port: 5000
+  server: 69.50.92.110
+  type: ss
+  udp: true
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+- name: 🇺🇸_US_美国_2
+  port: 8888
+  server: 69.50.93.113
+  type: ss
+  udp: true
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
 - name: 🇷🇺_RU_俄罗斯_1
+  port: 9019
+  server: 217.30.10.18
   type: ss
-  server: 80.92.204.106
-  port: 9006
-  password: FAdUvMJUq5vDgKEq
+  udp: true
+  password: GA9KzeEgvfxNrgmM
   cipher: aes-256-cfb
-- name: 未知_3
+- name: 🇺🇸_US_美国_3
+  port: 8881
+  server: 69.50.92.72
   type: ss
-  server: 103.172.116.94
-  port: 9045
-  password: Lp27rqyJq72bZsqX
-  cipher: aes-256-cfb
-- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_16
-  type: vmess
-  server: 104.19.47.32
-  port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  sni: ''
-  network: ws
-- name: 未知_4
+  udp: true
+  password: kDWvXYZoTBcGkC4
+  cipher: aes-256-gcm
+- name: 🇺🇸_US_美国_4
+  port: 5499
+  server: 169.197.141.84
   type: ss
-  server: 103.172.116.94
-  port: 9057
-  password: wjTugX3ZtHMB9c3Z
-  cipher: aes-256-cfb
-- name: 未知_5
+  udp: true
+  password: lGqs95QkFHo2NV
+  cipher: aes-256-gcm
+- name: 🇩🇪_DE_德国->🇷🇺_RU_俄罗斯_1
+  port: 8080
+  server: 45.87.175.199
   type: ss
-  server: 103.172.116.94
-  port: 9025
-  password: XPtzA9sCug3SPR4c
-  cipher: aes-256-cfb
-- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_17
-  type: vmess
-  server: www.zula.ir
-  port: 80
-  cipher: auto
-  uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9
-  alterId: 0
-  sni: ''
-  network: ws
-- name: 未知_6
+  udp: true
+  password: gDFRe52uiIvVaxqPlqw439
+  cipher: chacha20-ietf-poly1305
+- name: 🇹🇷_TR_土耳其
+  port: 51348
+  server: 5.188.36.54
   type: ss
-  server: 103.172.116.94
-  port: 9018
-  password: fG2artUmHfNT2cX7
-  cipher: aes-256-cfb
-- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_18
-  type: vmess
-  server: 172.64.166.9
-  port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  sni: ''
-  network: ws
+  udp: true
+  password: xeQxB7sMGptfFct2qk2ESLeCNLLhRRwXrkNZXCdLFYvYwPQD
+  cipher: chacha20-ietf-poly1305
+- name: 🇩🇪_DE_德国->🇷🇺_RU_俄罗斯_2
+  port: 8080
+  server: 45.87.175.192
+  type: ss
+  udp: true
+  password: gDFRe52uiIvVaxqPlqw439
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸_US_美国_5
+  port: 5500
+  server: 139.64.165.230
+  type: ss
+  udp: true
+  password: KixLvKzwjekG00rm
+  cipher: aes-256-gcm
 - name: 🇨🇦_CA_加拿大
+  port: 2376
+  server: 23.154.136.247
   type: ss
-  server: 142.4.216.225
-  port: 80
-  password: JIhN6rBKkaEboLNXVSv5rq
+  udp: true
+  password: faBAoD54k87UJG7
+  cipher: aes-256-gcm
+- name: 🇺🇸_US_美国_6
+  port: 6679
+  server: 142.202.49.84
+  type: ss
+  udp: true
+  password: TEzjfAYq2IjtuoS
+  cipher: aes-256-gcm
+- name: 🇺🇸_US_美国_7
+  port: 6679
+  server: 69.50.92.72
+  type: ss
+  udp: true
+  password: TEzjfAYq2IjtuoS
+  cipher: aes-256-gcm
+- name: 🇬🇧_GB_英国
+  port: 443
+  server: 212.102.53.198
+  type: ss
+  udp: true
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸_US_美国_8
+  port: 9090
+  server: 69.50.95.218
+  type: ss
+  udp: true
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+- name: 🇺🇸_US_美国_9
+  port: 2376
+  server: 139.64.165.230
+  type: ss
+  udp: true
+  password: faBAoD54k87UJG7
+  cipher: aes-256-gcm
+- name: 🇳🇱_NL_荷兰_1
+  port: 8080
+  server: 45.158.171.36
+  type: ss
+  udp: true
+  password: a8bt9fY0QsLS6eLnXUe0Ym
+  cipher: chacha20-ietf-poly1305
+- name: 🇳🇱_NL_荷兰_2
+  port: 8080
+  server: 45.158.171.44
+  type: ss
+  udp: true
+  password: a8bt9fY0QsLS6eLnXUe0Ym
   cipher: chacha20-ietf-poly1305
 - name: 🇷🇺_RU_俄罗斯_2
+  port: 9033
+  server: 217.30.10.18
   type: ss
-  server: 80.92.204.106
-  port: 9027
-  password: EXN3S3eQpjE7EJu8
-  cipher: aes-256-cfb
-- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_19
-  type: vmess
-  server: 104.26.5.66
-  port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  sni: ''
-  network: ws
-- name: 🇺🇸_US_美国
-  type: vmess
-  server: 104.26.0.66
-  port: 2052
-  cipher: auto
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  alterId: 0
-  network: ws
-- name: 🇷🇺_RU_俄罗斯_3
-  type: ss
-  server: 80.92.204.106
-  port: 9098
-  password: aLpQtfEZe445QyHk
-  cipher: aes-256-cfb
-- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_20
-  type: vmess
-  server: 104.19.55.79
-  port: 2052
-  cipher: auto
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  alterId: 0
-  sni: ''
-  network: ws
-- name: 🇷🇺_RU_俄罗斯_4
-  type: ss
-  server: 80.92.204.106
-  port: 9020
-  password: BNmAXXxAHYpTRdzu
-  cipher: aes-256-cfb
-- name: 未知_7
-  type: ss
-  server: 103.172.116.94
-  port: 9093
-  password: wfLC2y7rzZyCmuyt
-  cipher: aes-256-cfb
-- name: 未知_8
-  type: ss
-  server: 103.172.116.94
-  port: 9053
-  password: SBM7R883jBmnqe6C
-  cipher: aes-256-cfb
-- name: 🇻🇳_VN_越南
-  type: ss
-  server: 103.186.154.181
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🇳🇱_NL_荷兰->🇺🇸_US_美国
-  type: vless
-  server: 188.42.88.238
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.jpmj.dev
-  tls: true
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
+  password: UTJA57ypk2XKQpnm
+  cipher: aes-256-cfb
+- name: 🇳🇱_NL_荷兰_3
+  port: 8080
+  server: 45.158.171.2
+  type: ss
   udp: true
-- name: 🇧🇿_BZ_伯利兹
-  type: vless
-  server: 45.131.6.191
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.my111000.tech
-  tls: true
-  ws-opts:
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
-    headers:
-      Host: sni.my111000.tech
+  password: a8bt9fY0QsLS6eLnXUe0Ym
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳_CN_中国->🇩🇪_DE_德国
+  port: 20934
+  server: 221.181.185.71
+  type: ss
   udp: true
-- name: 🇺🇸_US_美国
-  type: vless
-  server: 135.84.73.245
+  password: bbO8KazkNBUGb7HP
+  cipher: aes-256-cfb
+- name: 🇺🇸_US_美国_10
+  port: 5003
+  server: 142.202.49.84
+  type: ss
+  udp: true
+  password: g5MeD6Ft3CWlJId
+  cipher: aes-256-gcm
+- name: 🇺🇸_US_美国->🇨🇳_CN_中国
   port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-  udp: true
-- name: 🇪🇸_ES_西班牙
+  server: 54.244.188.170
   type: ss
-  server: 5.188.181.201
-  port: 9029
+  udp: true
+  password: amazonskr05
   cipher: aes-256-cfb
-  password: dU3DSNS8wYPXzEKw
-  udp: true
-- name: 🇧🇿_BZ_伯利兹_1
-  type: vless
-  server: 45.131.4.192
-  port: 80
-  uuid: 5f4845b4-11dc-41d6-9508-4ff6a02e36c1
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: silent-paper-fa57.fipiyag989.workers.dev
-  udp: true
-- name: 🇻🇳_VN_越南_1
+- name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+  port: 443
+  server: 52.43.33.6
   type: ss
-  server: 103.186.154.166
-  port: 38388
+  udp: true
+  password: amazonskr05
   cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇫🇮_FI_芬兰
-  type: vless
-  server: 144.31.82.47
-  port: 18038
-  uuid: a42c8b66-d0a7-4b49-9143-b98f1c84edba
-  servername: www.microsoft.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: UDLhjunZjP-5A6KBMeuWe3qp_FusLAshcQIcCF7EZh8
-    short-id: ce9f790791426d83
-  udp: true
-- name: 🇯🇵_JP_日本->🇹🇼_TW_中国台湾
-  type: vless
-  server: 216.23.108.4
-  port: 55309
-  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
-  servername: download.windowsupdate.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: qq
-  reality-opts:
-    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
-    short-id: 4bcbc85d
-  udp: true
-- name: 🇯🇵_JP_日本
-  type: vless
-  server: 216.23.108.4
-  port: 55305
-  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
-  servername: download.windowsupdate.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
-    short-id: 4bcbc85d
-  udp: true
-- name: 🇬🇧_GB_英国
-  type: vless
-  server: london1.ap221.com
-  port: 443
-  uuid: 3a1d7c1d-09c6-4c81-8e11-75dd4ab1ac07
-  servername: london.ap221.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  udp: true
-- name: 🇰🇷_KR_韩国
-  type: vless
-  server: 59.4.161.71
-  port: 38241
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.v6.army
-  tls: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.v6.army
-  udp: true
-- name: 🇻🇳_VN_越南_2
+- name: 🇺🇸_US_美国_11
+  port: 8118
+  server: 23.166.88.221
   type: ss
-  server: 103.186.154.174
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🇯🇵_JP_日本->🇸🇬_SG_新加坡
-  type: vless
-  server: 216.23.108.4
-  port: 55313
-  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
-  servername: download.windowsupdate.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: safari
-  reality-opts:
-    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
-    short-id: 4bcbc85d
-  udp: true
-- name: 🇻🇳_VN_越南_3
+  password: cdBIDV42DCwnfIN
+  cipher: aes-256-gcm
+- name: 🇺🇸_US_美国_12
+  port: 8090
+  server: 69.50.92.72
   type: ss
-  server: 103.186.154.40
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🇹🇭_TH_泰国
-  type: vless
-  server: 47.81.36.237
-  port: 443
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-  servername: api.digital-help-prd.autodesk.com
-  tls: true
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-  udp: true
-- name: 🇰🇷_KR_韩国_1
-  type: vless
-  server: 121.175.77.73
-  port: 10333
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.v6.army
-  tls: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.v6.army
-  udp: true
-- name: 🇺🇸_US_美国_1
-  type: vless
-  server: 104.18.12.149
-  port: 443
-  uuid: b60e5c32-3d4e-425c-a785-a36cd0621a72
-  network: ws
-  servername: S4-f45.pAGeS.DeV
-  tls: true
-  ws-opts:
-    path: /
-    headers:
-      Host: S4-f45.pAGeS.DeV
-  udp: true
-- name: 🇺🇸_US_美国_2
-  type: vless
-  server: 104.250.239.8
-  port: 17195
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  servername: usvless.yydzx.xyz
-  tls: true
-  flow: xtls-rprx-vision
-  udp: true
-- name: 🇯🇵_JP_日本_1
-  type: vless
-  server: 158.51.110.12
-  port: 443
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  network: ws
-  servername: pagescm.freen5.cc.cd
-  tls: true
-  ws-opts:
-    path: /showfp=chrome
-    headers:
-      Host: pagescm.freen5.cc.cd
-  udp: true
-- name: 🇺🇸_US_美国_3
-  type: vless
-  server: 104.17.101.139
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?proxyip=ip.111000.de5.net%3A443
-    headers:
-      Host: sni.111000.dynv6.net
-  udp: true
-- name: 🇭🇰_HK_中国香港
+  password: PCnnH6SQSnfoS27
+  cipher: aes-256-gcm
+- name: 🇺🇸_US_美国_13
+  port: 8882
+  server: 69.50.92.72
   type: ss
-  server: 103.149.182.105
-  port: 8388
-  cipher: chacha20-ietf
-  password: asd123456
   udp: true
-- name: 🇰🇿_KZ_哈萨克斯坦
-  type: vless
-  server: 31.43.179.238
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.jpmj.dev
-  tls: true
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-  udp: true
-- name: 🇺🇸_US_美国_4
-  type: vless
-  server: 139.64.235.238
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.jpmj.dev
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.jpmj.dev
-  udp: true
-- name: 🇺🇸_US_美国_5
-  type: vless
-  server: 45.153.7.191
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.my111000.tech
-  tls: true
-  ws-opts:
-    headers:
-      Host: sni.my111000.tech
-  udp: true
-- name: 🇺🇸_US_美国_6
-  type: vless
-  server: 162.159.17.207
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.v6.army
-  tls: true
-  ws-opts:
-    path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
-    headers:
-      Host: sni.111000.v6.army
-  udp: true
-- name: 🇻🇳_VN_越南_4
-  type: ss
-  server: 103.186.155.114
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇻🇳_VN_越南_5
-  type: ss
-  server: 103.186.154.234
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🇨🇾_CY_塞浦路斯
-  type: vless
-  server: 77.37.33.40
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: false
-  ws-opts:
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-    headers:
-      Host: vms.lifetime57.workers.dev
-  udp: true
-- name: 🇷🇺_RU_俄罗斯
-  type: ss
-  server: ru.safepass.click
-  port: 442
-  cipher: aes-128-gcm
-  password: 6784aee2-0dfe-474f-8446-480259ff9918
-  udp: true
+  password: kDWvXYZoTBcGkC4
+  cipher: aes-256-gcm
