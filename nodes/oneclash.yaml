@@ -1,388 +1,543 @@
 proxies:
 - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-  type: vmess
-  server: 172.64.166.28
   port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
+  server: 162.159.140.77
+  type: vmess
+  network: ws
+  udp: true
   sni: ''
-  network: ws
-- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-  type: vmess
-  server: 104.19.123.11
-  port: 2086
   cipher: auto
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
-  sni: ip2.1457230.xyz
-  network: ws
+  skipCertVerify: true
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip1.1789034.xyz
 - name: 🇺🇸_US_美国_1
-  type: ss
-  server: 38.114.114.158
-  port: 443
-  password: pKEW8JPByTVTLtM
-  cipher: aes-256-gcm
-- name: 🇷🇺_RU_俄罗斯_1
-  type: ss
-  server: 80.92.204.106
-  port: 9064
-  password: cp8pRSUAyLhTfVWH
-  cipher: aes-256-cfb
-- name: 🇺🇸_US_美国_2
+  port: 2086
+  server: 104.26.5.103
   type: vmess
-  server: 104.16.61.8
-  port: 8880
+  network: ws
+  udp: true
+  sni: ''
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  skipCertVerify: true
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip1.1789034.xyz
+- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  port: 2086
+  server: 104.19.45.42
+  type: vmess
+  network: ws
+  udp: true
+  sni: ''
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  skipCertVerify: true
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip14.freegradely.xyz
+- name: 🇺🇸_US_美国_3
+  port: 443
+  server: 205.134.180.139
+  type: ss
+  udp: true
+  password: lWaGPVFjmnag
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+  port: 2086
+  server: 172.64.166.22
+  type: vmess
+  network: ws
+  udp: true
+  sni: ''
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  skipCertVerify: true
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip2.1457230.xyz
+- name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
+  port: 2082
+  server: 104.16.60.8
+  type: vmess
+  network: ws
+  udp: true
   cipher: auto
   uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
   alterId: 0
-  network: ws
-- name: 🇺🇸_US_美国_3
-  type: vmess
-  server: 23.227.38.145
-  port: 80
-  cipher: auto
-  uuid: ec286f13-7e1a-42bc-9deb-76b91b4b9d2d
-  alterId: 0
-  network: ws
-- name: 🇺🇸_US_美国->🇫🇷_FR_法国_1
-  type: vmess
-  server: 66.235.200.0
-  port: 80
-  cipher: auto
-  uuid: ec286f13-7e1a-42bc-9deb-76b91b4b9d2d
-  alterId: 0
-  sni: ''
-  network: ws
-- name: 🇷🇺_RU_俄罗斯_2
-  type: ss
-  server: 80.92.204.106
-  port: 9006
-  password: FAdUvMJUq5vDgKEq
-  cipher: aes-256-cfb
-- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-  type: vmess
+  wsOpts:
+    path: /ivideos.sbs/linkws
+    headers:
+      host: 82uple-bird-b087.pemed58443.workers.dev
+- name: 🇺🇸_US_美国_5
+  port: 2086
   server: 104.19.57.4
-  port: 2086
+  type: vmess
+  network: ws
+  udp: true
+  sni: ''
   cipher: auto
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
-  sni: ip2.1457230.xyz
-  network: ws
-- name: 🇷🇺_RU_俄罗斯_3
-  type: ss
-  server: 80.92.204.106
-  port: 9019
-  password: GA9KzeEgvfxNrgmM
-  cipher: aes-256-cfb
+  skipCertVerify: true
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip11.freegradely.xyz
 - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
-  type: vmess
-  server: 104.19.46.56
   port: 2086
+  server: 104.19.47.27
+  type: vmess
+  network: ws
+  udp: true
+  sni: ''
   cipher: auto
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
-  sni: ip2.1457230.xyz
-  network: ws
+  skipCertVerify: true
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip1.1457230.xyz
 - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
-  type: vmess
-  server: 104.16.148.244
   port: 2086
+  server: singapore.com
+  type: vmess
+  network: ws
+  udp: true
+  sni: ''
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  skipCertVerify: true
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip1.1789034.xyz
+- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
+  port: 2086
+  server: 104.19.45.31
+  type: vmess
+  network: ws
+  udp: true
+  sni: ''
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  skipCertVerify: true
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip13.freegradely.xyz
+- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_7
+  port: 2086
+  server: 104.19.32.216
+  type: vmess
+  network: ws
+  udp: true
+  sni: ''
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  skipCertVerify: true
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip14.freegradely.xyz
+- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
+  port: 2086
+  server: 104.19.46.39
+  type: vmess
+  network: ws
+  udp: true
+  sni: ''
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  skipCertVerify: true
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip13.freegradely.xyz
+- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
+  port: 2086
+  server: 104.19.47.122
+  type: vmess
+  network: ws
+  udp: true
+  sni: ''
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  skipCertVerify: true
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip14.freegradely.xyz
+- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_10
+  port: 2086
+  server: 23.227.38.3
+  type: vmess
+  network: ws
+  udp: true
+  sni: ''
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  skipCertVerify: true
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip1.1457230.xyz
+- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_11
+  port: 2086
+  server: 172.64.167.29
+  type: vmess
+  network: ws
+  udp: true
+  sni: ''
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  skipCertVerify: true
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip2.1457230.xyz
+- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_12
+  port: 2086
+  server: 172.64.166.20
+  type: vmess
+  network: ws
+  udp: true
+  sni: ''
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  skipCertVerify: true
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip2.1457230.xyz
+- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_13
+  port: 2086
+  server: 23.227.38.5
+  type: vmess
+  network: ws
+  udp: true
+  sni: ''
   cipher: auto
   uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
   alterId: 0
-  sni: ip006.freegradely.xyz
-  network: ws
-- name: 🇬🇧_GB_英国
-  type: ss
-  server: mx2.drawnrisha.one
-  port: 55988
-  password: E89vdQ1tPUuwcZcMceiHBtUCoGX3U92PAGajq83EZnzEXNMWs3A59u6UKjGa4aSD75qpBCRbJrqMpQm8bXc3FMHGYvAWANxY
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
-  type: vmess
-  server: 172.64.233.17
+  skipCertVerify: true
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip005.freegradely.xyz
+- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_14
   port: 2086
+  server: 172.64.167.25
+  type: vmess
+  network: ws
+  udp: true
+  sni: ''
   cipher: auto
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
-  sni: ''
-  network: ws
-- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_7
-  type: vmess
-  server: 172.64.167.5
+  skipCertVerify: true
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip2.1457230.xyz
+- name: 🇺🇸_US_美国_10
   port: 2086
+  server: 172.64.175.213
+  type: vmess
+  network: ws
+  udp: true
+  sni: ''
   cipher: auto
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
-  sni: ''
-  network: ws
-- name: 🇦🇱_AL_阿尔巴尼亚
-  type: ss
-  server: 31.171.153.178
-  port: 989
-  password: f8f7aCzcPKbsF8p3
-  cipher: aes-256-cfb
-- name: 🇺🇸_US_美国_4
-  type: vmess
-  server: 104.19.21.63
-  port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  sni: ''
-  network: ws
-- name: 🇹🇷_TR_土耳其
-  type: ss
-  server: 185.123.101.241
-  port: 989
-  password: f8f7aCzcPKbsF8p3
-  cipher: aes-256-cfb
-- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
-  type: vmess
-  server: 104.19.47.122
-  port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  sni: ''
-  network: ws
-- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
-  type: vmess
-  server: 23.227.38.3
-  port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  sni: ''
-  network: ws
-- name: 🇺🇸_US_美国->🇫🇷_FR_法国_2
-  type: vmess
-  server: 172.67.130.140
-  port: 2082
-  cipher: auto
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  alterId: 0
-  sni: ''
-  network: ws
-- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_10
-  type: vmess
-  server: 172.64.167.8
-  port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  sni: ''
-  network: ws
-- name: 🇺🇸_US_美国_5
-  type: ss
-  server: 38.99.82.85
-  port: 20088
-  password: ڦʺl٬TJ1q8DFgǪǥ
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_11
-  type: vmess
-  server: 104.17.106.151
-  port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  sni: ''
-  network: ws
-- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_12
-  type: vmess
-  server: 104.26.5.67
-  port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  network: ws
-- name: 🇳🇱_NL_荷兰->🇨🇳_CN_中国
-  port: 8080
-  server: 45.158.171.9
-  type: ss
-  udp: true
-  password: a8bt9fY0QsLS6eLnXUe0Ym
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸_US_美国_1
-  port: 5000
-  server: 69.50.92.110
-  type: ss
-  udp: true
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- name: 🇺🇸_US_美国_2
-  port: 8888
-  server: 69.50.93.113
-  type: ss
-  udp: true
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- name: 🇷🇺_RU_俄罗斯_1
-  port: 9019
-  server: 217.30.10.18
-  type: ss
-  udp: true
-  password: GA9KzeEgvfxNrgmM
-  cipher: aes-256-cfb
-- name: 🇺🇸_US_美国_3
-  port: 8881
-  server: 69.50.92.72
-  type: ss
-  udp: true
-  password: kDWvXYZoTBcGkC4
-  cipher: aes-256-gcm
-- name: 🇺🇸_US_美国_4
-  port: 5499
-  server: 169.197.141.84
-  type: ss
-  udp: true
-  password: lGqs95QkFHo2NV
-  cipher: aes-256-gcm
-- name: 🇩🇪_DE_德国->🇷🇺_RU_俄罗斯_1
-  port: 8080
-  server: 45.87.175.199
-  type: ss
-  udp: true
-  password: gDFRe52uiIvVaxqPlqw439
-  cipher: chacha20-ietf-poly1305
-- name: 🇹🇷_TR_土耳其
-  port: 51348
-  server: 5.188.36.54
-  type: ss
-  udp: true
-  password: xeQxB7sMGptfFct2qk2ESLeCNLLhRRwXrkNZXCdLFYvYwPQD
-  cipher: chacha20-ietf-poly1305
-- name: 🇩🇪_DE_德国->🇷🇺_RU_俄罗斯_2
-  port: 8080
-  server: 45.87.175.192
-  type: ss
-  udp: true
-  password: gDFRe52uiIvVaxqPlqw439
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸_US_美国_5
-  port: 5500
-  server: 139.64.165.230
-  type: ss
-  udp: true
-  password: KixLvKzwjekG00rm
-  cipher: aes-256-gcm
-- name: 🇨🇦_CA_加拿大
-  port: 2376
-  server: 23.154.136.247
-  type: ss
-  udp: true
-  password: faBAoD54k87UJG7
-  cipher: aes-256-gcm
-- name: 🇺🇸_US_美国_6
-  port: 6679
-  server: 142.202.49.84
-  type: ss
-  udp: true
-  password: TEzjfAYq2IjtuoS
-  cipher: aes-256-gcm
-- name: 🇺🇸_US_美国_7
-  port: 6679
-  server: 69.50.92.72
-  type: ss
-  udp: true
-  password: TEzjfAYq2IjtuoS
-  cipher: aes-256-gcm
+  skipCertVerify: true
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip11.freegradely.xyz
 - name: 🇬🇧_GB_英国
   port: 443
-  server: 212.102.53.198
+  server: 212.102.53.193
   type: ss
   udp: true
   password: shadowsocks
   cipher: aes-128-gcm
-- name: 🇺🇸_US_美国_8
-  port: 9090
-  server: 69.50.95.218
+- name: 🇺🇸_US_美国_11
+  port: 2086
+  server: 104.26.12.31
+  type: vmess
+  network: ws
+  udp: true
+  sni: ''
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  skipCertVerify: true
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip1.1789034.xyz
+- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_15
+  port: 2086
+  server: 104.19.59.89
+  type: vmess
+  network: ws
+  udp: true
+  sni: ''
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  skipCertVerify: true
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip14.freegradely.xyz
+- name: 🇺🇸_US_美国->🇩🇪_DE_德国_4
+  port: 2095
+  server: 172.66.44.170
+  type: vmess
+  network: ws
+  udp: true
+  cipher: auto
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  wsOpts:
+    path: /max.mankadmu.com/linkvws
+    headers:
+      host: sany0116.donovan-a79.workers.dev
+- name: 🇺🇸_US_美国_13
+  port: 2086
+  server: 104.26.5.145
+  type: vmess
+  network: ws
+  udp: true
+  sni: ''
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  skipCertVerify: true
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip1.1789034.xyz
+- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_16
+  port: 2086
+  server: 104.16.148.244
+  type: vmess
+  network: ws
+  udp: true
+  sni: ip006.freegradely.xyz
+  cipher: auto
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  alterId: 0
+  skipCertVerify: false
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip006.freegradely.xyz
+- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_17
+  port: 2086
+  server: 104.19.47.80
+  type: vmess
+  network: ws
+  udp: true
+  sni: ''
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  skipCertVerify: true
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip14.freegradely.xyz
+- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_18
+  port: 2086
+  server: 104.19.46.103
+  type: vmess
+  network: ws
+  udp: true
+  sni: ''
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  skipCertVerify: true
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip14.freegradely.xyz
+- name: 🇺🇸_US_美国_19
+  port: 2086
+  server: 104.26.13.31
+  type: vmess
+  network: ws
+  udp: true
+  sni: ''
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  skipCertVerify: true
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip1.1789034.xyz
+- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_19
+  port: 2086
+  server: 172.64.166.16
+  type: vmess
+  network: ws
+  udp: true
+  sni: ''
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  skipCertVerify: true
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip2.1457230.xyz
+- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_20
+  port: 2086
+  server: 104.19.46.17
+  type: vmess
+  network: ws
+  udp: true
+  sni: ''
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  skipCertVerify: true
+  wsOpts:
+    path: github.com/Alvin9999
+    headers:
+      host: ip13.freegradely.xyz
+- name: 🇺🇸_US_美国_1
+  port: 443
+  server: 35.87.185.248
   type: ss
   udp: true
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- name: 🇺🇸_US_美国_9
-  port: 2376
-  server: 139.64.165.230
-  type: ss
-  udp: true
-  password: faBAoD54k87UJG7
-  cipher: aes-256-gcm
-- name: 🇳🇱_NL_荷兰_1
-  port: 8080
-  server: 45.158.171.36
-  type: ss
-  udp: true
-  password: a8bt9fY0QsLS6eLnXUe0Ym
-  cipher: chacha20-ietf-poly1305
-- name: 🇳🇱_NL_荷兰_2
-  port: 8080
-  server: 45.158.171.44
-  type: ss
-  udp: true
-  password: a8bt9fY0QsLS6eLnXUe0Ym
-  cipher: chacha20-ietf-poly1305
-- name: 🇷🇺_RU_俄罗斯_2
-  port: 9033
-  server: 217.30.10.18
-  type: ss
-  udp: true
-  password: UTJA57ypk2XKQpnm
+  password: amazonskr05
   cipher: aes-256-cfb
-- name: 🇳🇱_NL_荷兰_3
-  port: 8080
-  server: 45.158.171.2
+- name: 🇺🇸_US_美国->🇬🇧_GB_英国
+  port: 443
+  server: 44.243.115.246
   type: ss
   udp: true
-  password: a8bt9fY0QsLS6eLnXUe0Ym
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇳_CN_中国->🇩🇪_DE_德国
-  port: 20934
-  server: 221.181.185.71
-  type: ss
-  udp: true
-  password: bbO8KazkNBUGb7HP
+  password: amazonskr05
   cipher: aes-256-cfb
-- name: 🇺🇸_US_美国_10
-  port: 5003
-  server: 142.202.49.84
+- name: 🇺🇸_US_美国_2
+  port: 443
+  server: 34.216.240.225
+  type: ss
+  udp: true
+  password: amazonskr05
+  cipher: aes-256-cfb
+- name: 🇫🇷_FR_法国->🇦🇹_AT_奥地利
+  port: 989
+  server: 163.172.64.22
+  type: ss
+  udp: true
+  password: f8f7aCzcPKbsF8p3
+  cipher: aes-256-cfb
+- name: 🇺🇸_US_美国_3
+  port: 5004
+  server: 38.68.134.202
   type: ss
   udp: true
   password: g5MeD6Ft3CWlJId
   cipher: aes-256-gcm
-- name: 🇺🇸_US_美国->🇨🇳_CN_中国
+- name: 🇨🇦_CA_加拿大
+  port: 990
+  server: 64.74.163.130
+  type: ss
+  udp: true
+  password: f8f7aCzcPKbsF8p3
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸_US_美国_4
   port: 443
-  server: 54.244.188.170
+  server: 18.246.235.247
   type: ss
   udp: true
   password: amazonskr05
   cipher: aes-256-cfb
-- name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+- name: 🇺🇸_US_美国_5
   port: 443
-  server: 52.43.33.6
+  server: 47.130.3.54
   type: ss
   udp: true
   password: amazonskr05
   cipher: aes-256-cfb
-- name: 🇺🇸_US_美国_11
-  port: 8118
-  server: 23.166.88.221
+- name: 🇺🇸_US_美国_6
+  port: 443
+  server: 54.185.199.99
+  type: ss
+  udp: true
+  password: amazonskr05
+  cipher: aes-256-cfb
+- name: 🇺🇸_US_美国_7
+  port: 8119
+  server: 38.110.1.105
   type: ss
   udp: true
   password: cdBIDV42DCwnfIN
   cipher: aes-256-gcm
-- name: 🇺🇸_US_美国_12
-  port: 8090
-  server: 69.50.92.72
+- name: 🇺🇸_US_美国_8
+  port: 42029
+  server: 208.67.105.196
   type: ss
   udp: true
-  password: PCnnH6SQSnfoS27
+  password: SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD
+  cipher: chacha20-ietf-poly1305
+- name: 🇷🇺_RU_俄罗斯
+  port: 9019
+  server: 217.30.10.18
+  type: ss
+  udp: true
+  password: GA9KzeEgvfxNrgmM
+  cipher: aes-256-cfb
+- name: 🇺🇸_US_美国_9
+  port: 8118
+  server: 38.110.1.105
+  type: ss
+  udp: true
+  password: cdBIDV42DCwnfIN
   cipher: aes-256-gcm
-- name: 🇺🇸_US_美国_13
-  port: 8882
-  server: 69.50.92.72
+- name: 🇺🇸_US_美国_10
+  port: 5498
+  server: 38.110.1.105
   type: ss
   udp: true
-  password: kDWvXYZoTBcGkC4
+  password: lGqs95QkFHo2NV
+  cipher: aes-256-gcm
+- name: 🇬🇧_GB_英国
+  port: 443
+  server: 141.98.101.181
+  type: ss
+  udp: true
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸_US_美国_11
+  port: 5601
+  server: 38.110.1.105
+  type: ss
+  udp: true
+  password: Y6R9pAtvxxzmGC
   cipher: aes-256-gcm
